@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barbershop</title>
+    <!--  Font awesome  -->
+    <script src="https://kit.fontawesome.com/9d14103e7c.js"></script>
+    <!--  Bootstar CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--  My CSS  -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+            <div class="logo">
+                <a class="navbar-brand" href="#">
+                    Barbershop
+                </a>
+
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="introduction" id="home">
+        <div class="container d-flex justify-content-center align-items-center flex-column" style="height: 100vh">
+            <h1>New Yourk's №1 Barbershop</h1>
+            <p>YOU WANT IT WE CUT IT FOR YOU</p>
+            <div class="white-line"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 about-text">
+                    <p>Not only women strive to be beautiful and look after their body, face and hair. Men are not alien to the sense of beauty, they, in turn, look after not only the hair on their heads, but also on their faces. Even in ancient times, a beard was a sign of masculinity and solidity of a man. Today, the fashion for brutal facial hair is again relevant. The beard and mustache remained a kind of opportunity for men and young men to emphasize their brutality and masculinity. Also, the presence of lush facial hair is a way to stand out in society.</p>
+                </div>
+                <div class="col-md-5 ml-auto about-img">
+                    <img src="./assets/images/about-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our services</h2>
+            <p>Another clear advantage of going to the salon for the new look of your beard or mustache is the fact that facial hair is different from head hair. They are more rude and sometimes quite naughty. In this connection, only an experienced master will be able to cope with them. Plus, the density of the beard and mustache is different for everyone and the master of our salon, guided by his experience, as well as the wishes of the client, will choose exactly the style that is suitable specifically for your case.</p>
+            <div class="row">
+                <div class="col service">
+                    <img src="./assets/images/service-1.jpg" alt="">
+                    <h6>Elite Shaving Accessories</h6>
+                    <p>Why is classic shaving in fashion again? What are the benefits of a T-shaped (safe) razor? What varieties of T-shavers are represented? How to shave with a T-shaped razor? and many other questions</p>
+                </div>
+                <div class="col service">
+                    <img src="./assets/images/service-2.jpg" alt="">
+                    <h6>Gray hair disguise</h6>
+                    <p>Tinting gel - a natural masking of gray hair, without radical changes in just 10 minutes. Without ammonia, it is enriched with an Incell molecule, applied as a shampoo, and tinted gray hair in 5-10 minutes.</p>
+                </div>
+                <div class="col service">
+                    <img src="./assets/images/service-3.jpg" alt="">
+                    <h6>Classic and royal shave</h6>
+                    <p>Many masters use a warm compress along with an abundance of creams and cosmetics for skin care after shaving. In the Exclusive salon, they choose the best way of care depending on the season and skin type. This is royal shaving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="text-center pb-5">Make an appointment</h2>
+            <div class="row align-items-center">
+                <div class="sign-up">
+                    <form action="" class="d-flex flex-column">
+                        <input type="text" id="username" placeholder="Enter your name here...">
+                        <input type="number" id="phone-number" placeholder="Enter your phone number here...">
+                        <select name="" id="select-gender">
+                            <option value="Select Gender">
+                                Select Gender
+                            </option>
+                            <option value="Male">
+                                Male
+                            </option>
+                            <option value="Female">
+                                Female
+                            </option>
+                            <option value="Other">
+                                Other
+                            </option>
+                        </select>
+                        <select name="" id="haircut-type">
+                            <option value="Select Type">
+                                Select Type
+                            </option>
+                            <option value="Haircut">
+                                Haircut
+                            </option>
+                            <option value="Beardcut">
+                                Beardcut
+                            </option>
+                        </select>
+                        <input type="submit" id="submit-btn">
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <p>Phone number: <a href="tel: somenumber">+1(786)53-53-53</a></p>
+                    <p>Adres: <a href="#">some adress</a></p>
+                    <p><a href=""><i class="fab fa-instagram fa-2x"></i></a> <a href=""><i class="fab fa-facebook-square fa-2x"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>All right's reserved &copy; by New Yourk's №1 Barbershop</p>
+    </footer>
+
+    <!--  Bootstrap  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--  My JS  -->
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+
+    <script src="./assets/scripts/firebase.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+
+</body>
+</html>
